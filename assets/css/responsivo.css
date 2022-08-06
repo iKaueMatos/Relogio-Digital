@@ -10,7 +10,7 @@
     div {
         height: 50vh;
         margin-bottom: 20px;
-        flex-direction: column-reverse;
+        flex-direction: column;
          
     }
 
