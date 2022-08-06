@@ -1,15 +1,41 @@
 
 @media screen and (max-width:768px) {
     body{
-        width: 100%;
-        height: 100%;
+        
+        flex-direction: column;
+    
     
     }
 
-    .relogio span{
-        display: flex;
-        width: 100%;
-     
+    div {
+        height: 50vh;
+        margin-bottom: 20px;
+        flex-direction: column-reverse;
+         
     }
 
+        .relogio div {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            height: 200px;
+            width: 150px;
+            background: rgba(5, 5, 5, 0.9);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+            letter-spacing: 3px;
+        }
+
+                .relogio {
+                    margin: 0 auto;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 550px;
+                    height: 300px;
+                    background: transparent;
+                    border-radius: 5px;
+                    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+                }
 }
