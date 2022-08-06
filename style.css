@@ -1,0 +1,25 @@
+@import url("assets/css/relogio.css");
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Anton&family=Dela+Gothic+One&family=Josefin+Sans:wght@400;700&family=Patua+One&family=Roboto+Slab:wght@200&family=Ubuntu:wght@300&display=swap');
+@import url('assets/css/reponsivo.css');
+
+:root{
+    --fundo:linear-gradient(#32feb7,#f4eeee);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+
+}
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--fundo);
+    overflow: hidden;
+}
